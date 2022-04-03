@@ -1,4 +1,4 @@
-package structural.decorator;
+package structural.decorator.v1;
 
 class SimpleBomb implements Bomb {
   @Override

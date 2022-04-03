@@ -1,4 +1,4 @@
-package structural.decorator;
+package structural.decorator.v1;
 
 class AtomicBombDecorator extends BombDecorator {
 

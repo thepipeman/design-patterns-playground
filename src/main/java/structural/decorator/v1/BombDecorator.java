@@ -1,4 +1,4 @@
-package structural.decorator;
+package structural.decorator.v1;
 
 abstract class BombDecorator implements Bomb {
 
