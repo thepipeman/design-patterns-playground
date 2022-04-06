@@ -8,7 +8,7 @@ public class AccountTransferService {
     final var sourceAccount = repo.getAccount(sourceAccountNumber);
     final var targetAccount = repo.getAccount(targetAccountNumber);
 
-    final var debitor = new AccountDebitService();
+    final var debitor = new AccountDebitRealService();
     debitor.debitAccount(sourceAccount, amount);
     System.out.printf("Source account %s new balance %.2f", sourceAccount.getNumber(), sourceAccount.getBalance());
     System.out.println("");
